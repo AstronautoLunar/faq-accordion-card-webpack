@@ -9,11 +9,21 @@ export default {
         path: path.join(__dirname, "src", "js")
     },
     module: {
-        rules: [{
-            test: /\.ts$/,
-            use: [
-                "ts-loader"
-            ]
-        }]
+        rules: [
+            {
+                test: /\.ts$/,
+                use: [
+                    "ts-loader"
+                ]
+            },
+            {
+                test: /\.s[ac]ss$/,
+                use: [
+                    "style-loader",
+                    "css-loader",
+                    "sass-loader"
+                ]
+            }
+        ]
     }
 }
