@@ -6,7 +6,7 @@ export default {
     entry: "./src/ts/main.ts",
     output: {
         filename: "code.js",
-        path: path.join(__dirname, "src", "js")
+        path: path.join(__dirname, "src", "core")
     },
     module: {
         rules: [
