@@ -11,3 +11,7 @@ export interface AnswersProps {
     data: Answer[];
     children: ChildrenProps
 }
+
+export type ItemsProps = NodeListOf<HTMLLIElement> | null;
+
+export type ArrowProps = NodeListOf<HTMLImageElement> | null;

@@ -1,11 +1,15 @@
 import { 
     Answer, 
     AnswersProps,
-    ChildrenProps
+    ChildrenProps,
+    ItemsProps,
+    ArrowProps
 } from "./AnswersProps";
 
 export {
     Answer,
     AnswersProps,
-    ChildrenProps
+    ChildrenProps,
+    ItemsProps,
+    ArrowProps
 }
