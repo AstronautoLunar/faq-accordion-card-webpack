@@ -1,0 +1,1 @@
+export const listOfFaq = window.document.querySelector("ul#list");

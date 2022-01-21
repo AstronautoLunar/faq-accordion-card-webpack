@@ -1,0 +1,196 @@
+#container
+    width: 900px
+    height: 500px
+
+    position: relative
+    
+    #illustration-box
+        position: absolute
+        top: 57%
+        left: 3px
+        transform: translate(-50%, -50%)
+
+        z-index: 2
+
+        width: 170px
+
+    #card 
+        width: 100%
+        height: 100%
+        
+        background-color: $lightGrayishBlue
+
+        border-radius: 25px
+
+        overflow: hidden
+
+        display: flex
+        justify-content: center
+        align-items: center
+
+        #illustration,
+        #faq
+            width: 50%
+            height: 100%
+
+        #illustration
+            position: relative
+
+            #illustration-woman
+                width: 450px
+
+                top: 50%
+                left: 35%
+
+            #illustration-woman,
+            #illustration-pattern
+
+                position: absolute
+                transform: translate(-50%, -50%)
+
+            #illustration-pattern
+                width: 600px
+
+                top: 50%
+                left: 19%
+
+        #faq 
+            padding: 50px
+
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            align-items: flex-start
+
+            #answers
+                width: 100%
+
+                display: flex
+                flex-direction: column
+                justify-content: center
+                align-items: center
+
+                overflow-y: auto
+                overflow-x: hidden
+
+                padding-right: 20px
+
+                #list
+                    width: 100%
+
+                    list-style-type: none
+
+                    .item
+                        width: 100%
+
+                        margin-top: 24px
+
+                        &:first-of-type
+                            margin-top: 0
+
+                        div
+                            width: 100%
+
+                        .area-answer
+                            display: flex
+                            justify-content: space-between
+                            align-items: center
+
+                            .arrow-answer
+                                transition: transform 200ms
+
+                        .area-response
+                            display: none
+
+                            overflow: hidden
+
+                            margin-top: 8px
+                            
+                            .response
+                                color: $darkGrayishBlue
+                                
+                                font-size: 15px
+
+                        hr 
+                            margin-top: 16px
+
+@media screen and (max-width: 1048px)
+
+    #container
+        width: 80%
+        
+        #illustration-box
+            display: none
+
+        #card 
+            flex-direction: column
+
+            overflow: visible
+
+            #illustration
+                height: 20%
+                
+                #illustration-woman,
+                #illustration-pattern
+                    left: 50%
+
+                    width: 200px
+
+                #illustration-woman
+                    top: -13px
+
+                #illustration-pattern
+                    top: 43px
+
+            #faq
+                width: 100%
+                height: 80%
+
+                padding: 0 $paddingFAQMobile $paddingFAQMobile
+
+                h1
+                    width: 100%
+
+                    text-align: center
+
+                #answers
+                    justify-content: flex-start
+
+    .attribution
+        position: static
+        bottom: 0
+
+        margin-top: 24px
+
+
+@media screen and (max-width: 426px)
+    #container
+        height: auto
+
+        #card 
+            #illustration
+                height: auto
+            
+            #faq
+                margin-top: 100px
+                height: auto
+
+                h1
+                    margin-bottom: 24px
+
+                #answers
+
+
+                    #list
+
+                        .item
+
+                            .area-answer
+                                
+                                .question
+                                    font-size: 12px
+
+                            .area-response
+
+                                .response
+                                    font-size: 10px
