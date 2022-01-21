@@ -3,7 +3,8 @@ import {
     AnswersProps,
     ChildrenProps,
     ItemsProps,
-    ArrowProps
+    ArrowProps,
+    QuestionProps
 } from "./AnswersProps";
 
 export {
@@ -11,5 +12,6 @@ export {
     AnswersProps,
     ChildrenProps,
     ItemsProps,
-    ArrowProps
+    ArrowProps,
+    QuestionProps
 }

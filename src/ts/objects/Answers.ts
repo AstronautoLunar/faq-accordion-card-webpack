@@ -3,7 +3,8 @@ import {
     AnswersProps,
     ChildrenProps,
     ItemsProps,
-    ArrowProps
+    ArrowProps,
+    QuestionProps
 } from "../types";
 
 class Answers {
@@ -11,6 +12,7 @@ class Answers {
     private readonly _children: ChildrenProps;
     private _items: ItemsProps = null;
     private _arrow: ArrowProps = null;
+    private _question: QuestionProps = null;
 
     constructor({
         data,
@@ -42,6 +44,14 @@ class Answers {
 
     get arrow(): ArrowProps {
         return this._arrow;
+    }
+
+    set question(value: QuestionProps) {
+        this._question = value;
+    }
+
+    get question(): QuestionProps {
+        return this._question
     }
 
     public render(): void {
@@ -82,6 +92,7 @@ class Answers {
 
             this.items = window.document.querySelectorAll("li.item");
             this.arrow = window.document.querySelectorAll("img.arrow-answer");
+            this.question = window.document.querySelectorAll(".question");
 
             this.setEventClick();
         } else {
@@ -92,31 +103,39 @@ class Answers {
     private setEventClick() {
         if(this.items) {
             this.items.forEach(({ children }, index: number) => {
-                const answer = children[0];
-                const response = children[1] as HTMLDivElement;
+                const areaAnswer = children[0];
+                const areaResponse = children[1] as HTMLDivElement;
                 let active = true;
 
-                answer.addEventListener("click", () => {
+                areaAnswer.addEventListener("click", () => {
                     if(active) {
-                        response.style.display = "block";
+                        areaResponse.style.display = "block";
                         
                         if(this.arrow) {
                             this.arrow[index].style.transform = "rotate(180deg)"
                         }
+
+                        if(this.question) {
+                            this.question[index].style.fontWeight = "bold"
+                        }
                         
                         active = false;
                     } else {
-                        response.style.display = "none"
-
+                        areaResponse.style.display = "none"
+                        
                         if(this.arrow) {
                             this.arrow[index].style.transform = "rotate(0deg)"
                         }
                         
+                        if(this.question) {
+                            this.question[index].style.fontWeight = "normal"
+                        }
+
                         active = true;
                     }
                 })
             })
-
+            
         } else {
             throw "Elementos de item não foram selecionados com sucesso"
         }

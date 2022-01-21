@@ -15,3 +15,5 @@ export interface AnswersProps {
 export type ItemsProps = NodeListOf<HTMLLIElement> | null;
 
 export type ArrowProps = NodeListOf<HTMLImageElement> | null;
+
+export type QuestionProps = NodeListOf<HTMLSpanElement> | null;
