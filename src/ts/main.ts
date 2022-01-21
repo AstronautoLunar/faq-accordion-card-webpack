@@ -12,7 +12,7 @@ const answers = new Answers({
     children: listOfFaq
 });
 
-const MEDIAQUERIEILLUSTRATION = 910;
+const MEDIAQUERIEILLUSTRATION = 1048;
 
 for(let illustration of illustrations) {
     const { 
