@@ -23,7 +23,7 @@ Esse é mais uma das minhas soluções vindas de plataformas de desafios front-e
 
 Esse projeto foi bem interessante, pois esse é o primeiro projeto que utilizo webpack, fiz com que o webpack carrega-se arquivos typescript e sass, então
 graças a ele foi possivel trabalhar com duas tecnologias modernas e tornar o desenvolvimento mais tranquilo, confortavel, seguro e rápido, pelo fato
-do site apenas pegar um arquivo javascript gerado pelo webpack acabou tornado ele muito mais rápido, então tive muitos benefícios, Valeu a pena
+do site apenas pegar um arquivo javascript gerado pelo webpack acabou tornando ele muito mais rápido, então tive muitos benefícios, Valeu a pena
 
 ## Pre Requisitos
 Você precisa apenas de um editor de código e obviamente de um navegador, recomendo usar o google chrome
