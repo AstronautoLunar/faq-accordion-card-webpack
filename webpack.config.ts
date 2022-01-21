@@ -2,7 +2,7 @@ import Webpack from "webpack";
 import path from "path";
 
 export default {
-    mode: "development",
+    mode: "production",
     entry: "./src/ts/main.ts",
     output: {
         filename: "code.js",
