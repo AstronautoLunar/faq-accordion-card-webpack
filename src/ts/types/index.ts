@@ -6,6 +6,11 @@ import {
     ArrowProps,
     QuestionProps
 } from "./AnswersProps";
+import ConvertImgResponsiveProps from "./ConvertImgResponsiveProps";
+import {
+    IllustrationProps,
+    IllustrationArrayProps
+} from "./IllustrationProps";
 
 export {
     Answer,
@@ -13,5 +18,8 @@ export {
     ChildrenProps,
     ItemsProps,
     ArrowProps,
-    QuestionProps
+    QuestionProps,
+    ConvertImgResponsiveProps,
+    IllustrationProps,
+    IllustrationArrayProps
 }

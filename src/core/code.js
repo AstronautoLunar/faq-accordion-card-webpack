@@ -16,7 +16,7 @@
   \*********************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"* {\\n  margin: 0;\\n  padding: 0;\\n  box-sizing: border-box; }\\n\\n.attribution {\\n  font-size: 11px;\\n  text-align: center;\\n  position: absolute;\\n  bottom: 20px;\\n  color: #e7e7e9; }\\n  .attribution a {\\n    color: #3e52a3; }\\n\\nbody {\\n  background-color: #e7e7e9; }\\n\\n#main {\\n  width: 100%;\\n  height: 100vh;\\n  background-image: linear-gradient(to bottom, #af67e9, #6565e7);\\n  display: flex;\\n  flex-direction: column;\\n  justify-content: center;\\n  align-items: center; }\\n\\n#container {\\n  position: relative; }\\n  #container #illustration-box {\\n    position: absolute;\\n    top: 57%;\\n    left: 3px;\\n    transform: translate(-50%, -50%);\\n    z-index: 2;\\n    width: 170px; }\\n  #container #card {\\n    width: 900px;\\n    height: 500px;\\n    background-color: #e7e7e9;\\n    border-radius: 25px;\\n    overflow: hidden;\\n    display: flex;\\n    justify-content: center;\\n    align-items: center; }\\n    #container #card #illustration,\\n    #container #card #faq {\\n      width: 50%;\\n      height: 100%; }\\n    #container #card #illustration {\\n      position: relative; }\\n      #container #card #illustration #illustration-woman,\\n      #container #card #illustration #illustration-pattern {\\n        width: 450px;\\n        position: absolute;\\n        top: 50%;\\n        left: 35%;\\n        transform: translate(-50%, -50%); }\\n    #container #card #faq {\\n      padding: 50px;\\n      display: flex;\\n      flex-direction: column;\\n      justify-content: space-between;\\n      align-items: flex-start; }\\n      #container #card #faq #answers {\\n        width: 100%;\\n        display: flex;\\n        flex-direction: column;\\n        justify-content: center;\\n        align-items: center;\\n        overflow-y: auto;\\n        overflow-x: hidden;\\n        padding-right: 20px; }\\n        #container #card #faq #answers #list {\\n          width: 100%;\\n          list-style-type: none; }\\n          #container #card #faq #answers #list .item {\\n            width: 100%;\\n            margin-top: 24px; }\\n            #container #card #faq #answers #list .item:first-of-type {\\n              margin-top: 0; }\\n            #container #card #faq #answers #list .item div {\\n              width: 100%; }\\n            #container #card #faq #answers #list .item .area-answer {\\n              display: flex;\\n              justify-content: space-between;\\n              align-items: center; }\\n              #container #card #faq #answers #list .item .area-answer .arrow-answer {\\n                transition: transform 200ms; }\\n            #container #card #faq #answers #list .item .area-response {\\n              display: none;\\n              overflow: hidden;\\n              margin-top: 8px; }\\n              #container #card #faq #answers #list .item .area-response .response {\\n                color: #787887;\\n                font-size: 15px; }\\n            #container #card #faq #answers #list .item hr {\\n              margin-top: 16px; }\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://faq-accordion-card-ts/./src/sass/main.sass?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"* {\\n  margin: 0;\\n  padding: 0;\\n  box-sizing: border-box; }\\n\\n.attribution {\\n  font-size: 11px;\\n  text-align: center;\\n  position: absolute;\\n  bottom: 20px;\\n  color: #e7e7e9; }\\n  .attribution a {\\n    color: #9fabdb; }\\n\\nbody {\\n  background-color: #e7e7e9; }\\n\\n#main {\\n  width: 100%;\\n  height: 100vh;\\n  background-image: linear-gradient(to bottom, #af67e9, #6565e7);\\n  display: flex;\\n  flex-direction: column;\\n  justify-content: center;\\n  align-items: center; }\\n\\n#container {\\n  position: relative; }\\n  #container #illustration-box {\\n    position: absolute;\\n    top: 57%;\\n    left: 3px;\\n    transform: translate(-50%, -50%);\\n    z-index: 2;\\n    width: 170px; }\\n  #container #card {\\n    width: 900px;\\n    height: 500px;\\n    background-color: #e7e7e9;\\n    border-radius: 25px;\\n    overflow: hidden;\\n    display: flex;\\n    justify-content: center;\\n    align-items: center; }\\n    #container #card #illustration,\\n    #container #card #faq {\\n      width: 50%;\\n      height: 100%; }\\n    #container #card #illustration {\\n      position: relative; }\\n      #container #card #illustration #illustration-woman,\\n      #container #card #illustration #illustration-pattern {\\n        width: 450px;\\n        position: absolute;\\n        top: 50%;\\n        left: 35%;\\n        transform: translate(-50%, -50%); }\\n    #container #card #faq {\\n      padding: 50px;\\n      display: flex;\\n      flex-direction: column;\\n      justify-content: space-between;\\n      align-items: flex-start; }\\n      #container #card #faq #answers {\\n        width: 100%;\\n        display: flex;\\n        flex-direction: column;\\n        justify-content: center;\\n        align-items: center;\\n        overflow-y: auto;\\n        overflow-x: hidden;\\n        padding-right: 20px; }\\n        #container #card #faq #answers #list {\\n          width: 100%;\\n          list-style-type: none; }\\n          #container #card #faq #answers #list .item {\\n            width: 100%;\\n            margin-top: 24px; }\\n            #container #card #faq #answers #list .item:first-of-type {\\n              margin-top: 0; }\\n            #container #card #faq #answers #list .item div {\\n              width: 100%; }\\n            #container #card #faq #answers #list .item .area-answer {\\n              display: flex;\\n              justify-content: space-between;\\n              align-items: center; }\\n              #container #card #faq #answers #list .item .area-answer .arrow-answer {\\n                transition: transform 200ms; }\\n            #container #card #faq #answers #list .item .area-response {\\n              display: none;\\n              overflow: hidden;\\n              margin-top: 8px; }\\n              #container #card #faq #answers #list .item .area-response .response {\\n                color: #787887;\\n                font-size: 15px; }\\n            #container #card #faq #answers #list .item hr {\\n              margin-top: 16px; }\\n  @media screen and (max-width: 910px) {\\n    #container #illustration-box {\\n      display: none; }\\n    #container #card {\\n      flex-direction: column; } }\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://faq-accordion-card-ts/./src/sass/main.sass?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -110,13 +110,33 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
+/***/ "./src/ts/data/answers.ts":
+/*!********************************!*\
+  !*** ./src/ts/data/answers.ts ***!
+  \********************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nconst answer = [\n    {\n        id: \"01\",\n        question: \"How many team members can I invite?\",\n        response: \"You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.\",\n        show: false\n    },\n    {\n        id: \"02\",\n        question: \"What is the maximum file upload size?\",\n        response: \"No more than 2GB. All files in your account must fit your allotted storage space.\",\n        show: false\n    },\n    {\n        id: \"03\",\n        question: \"How do I reset my password?\",\n        response: \"Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.\",\n        show: false\n    },\n    {\n        id: \"04\",\n        question: \"Can I cancel my subscription?\",\n        response: \"Yes! Send us a message and we’ll process your request no questions asked.\",\n        show: false\n    },\n    {\n        id: \"05\",\n        question: \"Do you provide additional support?\",\n        response: \"Chat and email support is available 24/7. Phone lines are open during normal business hours.\",\n        show: false\n    }\n];\nexports[\"default\"] = answer;\n\n\n//# sourceURL=webpack://faq-accordion-card-ts/./src/ts/data/answers.ts?");
+
+/***/ }),
+
+/***/ "./src/ts/data/illustrations.ts":
+/*!**************************************!*\
+  !*** ./src/ts/data/illustrations.ts ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nconst elements_1 = __webpack_require__(/*! ../elements */ \"./src/ts/elements/index.ts\");\nconst illustrations = [\n    {\n        element: elements_1.illustrationWoman,\n        src: \"./assets/illustration-woman-online-mobile.svg\"\n    },\n    {\n        element: elements_1.illustrationPattern,\n        src: \"./assets/bg-pattern-mobile.svg\"\n    }\n];\nexports[\"default\"] = illustrations;\n\n\n//# sourceURL=webpack://faq-accordion-card-ts/./src/ts/data/illustrations.ts?");
+
+/***/ }),
+
 /***/ "./src/ts/data/index.ts":
 /*!******************************!*\
   !*** ./src/ts/data/index.ts ***!
   \******************************/
-/***/ ((__unused_webpack_module, exports) => {
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nconst data = [\n    {\n        id: \"01\",\n        question: \"How many team members can I invite?\",\n        response: \"You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.\",\n        show: false\n    },\n    {\n        id: \"02\",\n        question: \"What is the maximum file upload size?\",\n        response: \"No more than 2GB. All files in your account must fit your allotted storage space.\",\n        show: false\n    },\n    {\n        id: \"03\",\n        question: \"How do I reset my password?\",\n        response: \"Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.\",\n        show: false\n    },\n    {\n        id: \"04\",\n        question: \"Can I cancel my subscription?\",\n        response: \"Yes! Send us a message and we’ll process your request no questions asked.\",\n        show: false\n    },\n    {\n        id: \"05\",\n        question: \"Do you provide additional support?\",\n        response: \"Chat and email support is available 24/7. Phone lines are open during normal business hours.\",\n        show: false\n    }\n];\nexports[\"default\"] = data;\n\n\n//# sourceURL=webpack://faq-accordion-card-ts/./src/ts/data/index.ts?");
+eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexports.illustrations = exports.answer = void 0;\nconst answers_1 = __importDefault(__webpack_require__(/*! ./answers */ \"./src/ts/data/answers.ts\"));\nexports.answer = answers_1.default;\nconst illustrations_1 = __importDefault(__webpack_require__(/*! ./illustrations */ \"./src/ts/data/illustrations.ts\"));\nexports.illustrations = illustrations_1.default;\n\n\n//# sourceURL=webpack://faq-accordion-card-ts/./src/ts/data/index.ts?");
 
 /***/ }),
 
@@ -130,13 +150,23 @@ eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexpo
 
 /***/ }),
 
+/***/ "./src/ts/elements/illustrationElement.ts":
+/*!************************************************!*\
+  !*** ./src/ts/elements/illustrationElement.ts ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexports.illustrationPattern = exports.illustrationWoman = void 0;\nexports.illustrationWoman = window.document.querySelector(\"img#illustration-woman\");\nexports.illustrationPattern = window.document.querySelector(\"img#illustration-pattern\");\n\n\n//# sourceURL=webpack://faq-accordion-card-ts/./src/ts/elements/illustrationElement.ts?");
+
+/***/ }),
+
 /***/ "./src/ts/elements/index.ts":
 /*!**********************************!*\
   !*** ./src/ts/elements/index.ts ***!
   \**********************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexports.listOfFaq = void 0;\nconst faq_1 = __webpack_require__(/*! ./faq */ \"./src/ts/elements/faq.ts\");\nObject.defineProperty(exports, \"listOfFaq\", ({ enumerable: true, get: function () { return faq_1.listOfFaq; } }));\n\n\n//# sourceURL=webpack://faq-accordion-card-ts/./src/ts/elements/index.ts?");
+eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexports.illustrationPattern = exports.illustrationWoman = exports.listOfFaq = void 0;\nconst faq_1 = __webpack_require__(/*! ./faq */ \"./src/ts/elements/faq.ts\");\nObject.defineProperty(exports, \"listOfFaq\", ({ enumerable: true, get: function () { return faq_1.listOfFaq; } }));\nconst illustrationElement_1 = __webpack_require__(/*! ./illustrationElement */ \"./src/ts/elements/illustrationElement.ts\");\nObject.defineProperty(exports, \"illustrationWoman\", ({ enumerable: true, get: function () { return illustrationElement_1.illustrationWoman; } }));\nObject.defineProperty(exports, \"illustrationPattern\", ({ enumerable: true, get: function () { return illustrationElement_1.illustrationPattern; } }));\n\n\n//# sourceURL=webpack://faq-accordion-card-ts/./src/ts/elements/index.ts?");
 
 /***/ }),
 
@@ -144,9 +174,9 @@ eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexpo
 /*!************************!*\
   !*** ./src/ts/main.ts ***!
   \************************/
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\n__webpack_require__(/*! ../sass/main.sass */ \"./src/sass/main.sass\");\nconst objects_1 = __webpack_require__(/*! ./objects */ \"./src/ts/objects/index.ts\");\nconst data_1 = __importDefault(__webpack_require__(/*! ./data */ \"./src/ts/data/index.ts\"));\nconst elements_1 = __webpack_require__(/*! ./elements */ \"./src/ts/elements/index.ts\");\nconst answers = new objects_1.Answers({\n    data: data_1.default,\n    children: elements_1.listOfFaq\n});\nanswers.render();\n\n\n//# sourceURL=webpack://faq-accordion-card-ts/./src/ts/main.ts?");
+eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\n__webpack_require__(/*! ../sass/main.sass */ \"./src/sass/main.sass\");\nconst objects_1 = __webpack_require__(/*! ./objects */ \"./src/ts/objects/index.ts\");\nconst data_1 = __webpack_require__(/*! ./data */ \"./src/ts/data/index.ts\");\nconst elements_1 = __webpack_require__(/*! ./elements */ \"./src/ts/elements/index.ts\");\nconst utils_1 = __webpack_require__(/*! ./utils */ \"./src/ts/utils/index.ts\");\nconst answers = new objects_1.Answers({\n    data: data_1.answer,\n    children: elements_1.listOfFaq\n});\nconst MEDIAQUERIEILLUSTRATION = 910;\nfor (let illustration of data_1.illustrations) {\n    const { element, src } = illustration;\n    (0, utils_1.convertImgResponsive)({\n        element,\n        src,\n        mediaQuerie: MEDIAQUERIEILLUSTRATION\n    });\n}\nanswers.render();\n\n\n//# sourceURL=webpack://faq-accordion-card-ts/./src/ts/main.ts?");
 
 /***/ }),
 
@@ -167,6 +197,26 @@ eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nclas
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexports.Answers = void 0;\nconst Answers_1 = __importDefault(__webpack_require__(/*! ./Answers */ \"./src/ts/objects/Answers.ts\"));\nexports.Answers = Answers_1.default;\n\n\n//# sourceURL=webpack://faq-accordion-card-ts/./src/ts/objects/index.ts?");
+
+/***/ }),
+
+/***/ "./src/ts/utils/ConvertImgResponsive.ts":
+/*!**********************************************!*\
+  !*** ./src/ts/utils/ConvertImgResponsive.ts ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nfunction convertImgResponsive({ element, src, mediaQuerie }) {\n    const mediaQuerieList = matchMedia(`(max-width: ${mediaQuerie}px)`);\n    const oldSrc = element.getAttribute(\"src\");\n    function toggleImage() {\n        if (mediaQuerieList.matches) {\n            element.setAttribute(\"src\", src);\n        }\n        else {\n            if (oldSrc) {\n                element.setAttribute(\"src\", oldSrc);\n            }\n            else {\n                throw \"Não foi possivel pegar o endereço antigo da imagem\";\n            }\n        }\n    }\n    mediaQuerieList.addEventListener(\"change\", toggleImage);\n    toggleImage();\n}\nexports[\"default\"] = convertImgResponsive;\n\n\n//# sourceURL=webpack://faq-accordion-card-ts/./src/ts/utils/ConvertImgResponsive.ts?");
+
+/***/ }),
+
+/***/ "./src/ts/utils/index.ts":
+/*!*******************************!*\
+  !*** ./src/ts/utils/index.ts ***!
+  \*******************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexports.convertImgResponsive = void 0;\nconst ConvertImgResponsive_1 = __importDefault(__webpack_require__(/*! ./ConvertImgResponsive */ \"./src/ts/utils/ConvertImgResponsive.ts\"));\nexports.convertImgResponsive = ConvertImgResponsive_1.default;\n\n\n//# sourceURL=webpack://faq-accordion-card-ts/./src/ts/utils/index.ts?");
 
 /***/ })
 
@@ -241,7 +291,7 @@ eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {
 /******/ 	
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	// This entry module is referenced by other modules so it can't be inlined
+/******/ 	// This entry module can't be inlined because the eval devtool is used.
 /******/ 	var __webpack_exports__ = __webpack_require__("./src/ts/main.ts");
 /******/ 	
 /******/ })()

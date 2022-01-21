@@ -1,0 +1,2 @@
+export const illustrationWoman = window.document.querySelector("img#illustration-woman") as HTMLImageElement;
+export const illustrationPattern = window.document.querySelector("img#illustration-pattern") as HTMLImageElement;

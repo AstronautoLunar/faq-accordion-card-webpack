@@ -1,5 +1,11 @@
 import { listOfFaq } from "./faq";
+import { 
+    illustrationWoman, 
+    illustrationPattern 
+} from "./illustrationElement";
 
 export {
-    listOfFaq
+    listOfFaq,
+    illustrationWoman, 
+    illustrationPattern
 }
